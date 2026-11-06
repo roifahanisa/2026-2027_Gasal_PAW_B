@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fa;
+    margin: 0;
+    color: #263238;
+}
+
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #00000012;
+}
+
+h2 {
+    margin-top: 0;
+    color: #174a7e;
+}
+
+nav {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 9px 14px;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 2px;
+}
+
+/* Warna tombol */
+.primary {
+    background: #1769aa;
+}
+
+.success {
+    background: #218838;
+}
+
+.danger {
+    background: #c82333;
+}
+
+.secondary {
+    background: #6c757d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #d8dee5;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #1769aa;
+    color: white;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd3dc;
+    border-radius: 5px;
+    margin: 6px 0 14px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.notice {
+    padding: 12px;
+    border-radius: 5px;
+    background: #e8f4ff;
+    margin: 12px 0;
+}
+
+.error {
+    background: #ffe8e8;
+    color: #8b0000;
+}
+
+.form-box {
+    max-width: 600px;
+}
+
+.small {
+    color: #667;
+    font-size: 13px;
+}
